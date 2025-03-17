@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    height: 60%;
+    padding-top: 20%;
+    margin-left: 136px;
+}
+
+.container-right {
+    display: inline-block;
+    width: 45%;
+    background-color: rgba(93, 93, 125, 0.16);
+    position: absolute;
+    height: 108vh;
+    color: #5d5d7d;
+    right: -12px;
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 130px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5d5d7d;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    width: 540px;
+    color: #5d5d7d;
+    opacity: 60%;
+    margin: 15px 0;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    background:#9499EA;
+
+    font-size: 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4;
+}
+
+a {
+    margin: 24px 42px 0 57px;
+    line-height: 41px;
+    font-size: 28px;
+    cursor:pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.6;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        display:block;
+        height: 50%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    header {
+        display: none;
+    }
+    
+    h1 {
+        width: auto;
+        font-size: 36px;
+        line-height: 58px;
+        text-align: center;
+        margin: 58px 54px 0 53px;
+    }
+
+    p {
+        width: auto;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .container-left {
+        height: 70%;
+    }
+}
