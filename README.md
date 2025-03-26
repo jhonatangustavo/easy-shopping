@@ -19,7 +19,7 @@ Foi desenvolvido com as seguintes tecnologias:
  <img src="https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logoColor=white" alt="CSS Badge">
  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
 
- ## :sunny: Result
+ ## :sunny: Resultado
 
  <div align="center">
 <img src="https://github.com/jhonatangustavo/easy-shopping/blob/master/assets/Computer1-model.png?raw=true" alt="logo-computer">
